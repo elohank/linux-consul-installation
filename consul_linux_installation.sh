@@ -22,7 +22,7 @@ tee -a config.json <<EOF
 "addresses" : {
 "http": "0.0.0.0"
 },
-"bind_addr": "10.0.0.184",
+"bind_addr": "0.0.0.0",
 "node_name": "node-1",
 "data_dir": "/var/consul",
 "encrypt": "$(cat /home/ubuntu/key.txt)",
